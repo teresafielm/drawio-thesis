@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T06:20:14.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="CesFsN94xEb_WtKTEP_U" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T08:04:55.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="8sJlozQi2ShitlRczaC9" version="24.0.5" type="github">
   <diagram name="Página-1" id="vRoXhG17WfUkG6E5nfiK">
-    <mxGraphModel dx="628" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="828" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -725,6 +725,150 @@
           <mxGeometry x="-0.1286" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-74" value="RTC" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="413.97" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.003;exitY=0.201;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="FWvUOpJC13upthYFLX1k-7" target="FWvUOpJC13upthYFLX1k-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1133" y="333" />
+              <mxPoint x="1130" y="333" />
+              <mxPoint x="1107" y="333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-78" value="Lectura de tres convertidores ADC" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1678" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-79" value="Declaración de variables" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1343" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-81" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FWvUOpJC13upthYFLX1k-79" target="FWvUOpJC13upthYFLX1k-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="1528" as="sourcePoint" />
+            <mxPoint x="1527" y="1418" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1390" y="1280" />
+              <mxPoint x="1560" y="1450" />
+              <mxPoint x="1540" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-101" value="Detección de PPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FWvUOpJC13upthYFLX1k-81">
+          <mxGeometry x="-0.051" y="-1" relative="1" as="geometry">
+            <mxPoint x="-183" y="-113" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-83" value="Obtención de cadenas de protocolo NMEA" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1460" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-88" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FWvUOpJC13upthYFLX1k-83" target="FWvUOpJC13upthYFLX1k-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="1438" as="sourcePoint" />
+            <mxPoint x="1350" y="1411" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1470" y="1520" />
+              <mxPoint x="1470" y="1670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-103" value="Detección&amp;nbsp;&lt;div&gt;de PPS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FWvUOpJC13upthYFLX1k-88">
+          <mxGeometry x="-0.0421" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-90" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FWvUOpJC13upthYFLX1k-79" target="FWvUOpJC13upthYFLX1k-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1491.6446609406598" y="1432.6446609406594" as="sourcePoint" />
+            <mxPoint x="1335.3553390593142" y="1375.6446609406862" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="1500" />
+              <mxPoint x="1230" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-102" value="Detección de datos&lt;div&gt;en puerto USART0&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FWvUOpJC13upthYFLX1k-90">
+          <mxGeometry x="0.022" y="4" relative="1" as="geometry">
+            <mxPoint x="-15" y="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-91" value="Aumento de contador de segundos" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1616" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-93" value="Actualización de RTC con datos de protocolo NMEA" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1243" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-94" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.587;entryY=0.979;entryDx=0;entryDy=0;exitX=0.049;exitY=0.711;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="FWvUOpJC13upthYFLX1k-78" target="FWvUOpJC13upthYFLX1k-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="1760" as="sourcePoint" />
+            <mxPoint x="1200" y="1510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="1760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-97" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.969;exitY=0.301;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FWvUOpJC13upthYFLX1k-93" target="FWvUOpJC13upthYFLX1k-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="1260" as="sourcePoint" />
+            <mxPoint x="1562.355339059341" y="1432.644660940659" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1540" y="1200" />
+              <mxPoint x="1630" y="1728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-106" value="Detección de PPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FWvUOpJC13upthYFLX1k-97">
+          <mxGeometry x="-0.5708" y="-43" relative="1" as="geometry">
+            <mxPoint x="-118" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-98" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FWvUOpJC13upthYFLX1k-91" target="FWvUOpJC13upthYFLX1k-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="1677" as="sourcePoint" />
+            <mxPoint x="1029.9999999999998" y="1279.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-100" value="Contador de segundos&lt;div&gt;cumple 24hrs&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FWvUOpJC13upthYFLX1k-98">
+          <mxGeometry x="-0.2397" y="-19" relative="1" as="geometry">
+            <mxPoint x="6" y="-85" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-104" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FWvUOpJC13upthYFLX1k-91" target="FWvUOpJC13upthYFLX1k-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="1490" as="sourcePoint" />
+            <mxPoint x="1230" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1250" y="1610" />
+              <mxPoint x="1340" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-105" value="Detección&amp;nbsp;&lt;div&gt;de PPS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FWvUOpJC13upthYFLX1k-104">
+          <mxGeometry x="-0.1839" y="3" relative="1" as="geometry">
+            <mxPoint x="-6" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-107" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FWvUOpJC13upthYFLX1k-93" target="FWvUOpJC13upthYFLX1k-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="1530" as="sourcePoint" />
+            <mxPoint x="1270" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="1520" />
+              <mxPoint x="1210" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-108" value="Detección de datos&lt;div&gt;en puerto USART0&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FWvUOpJC13upthYFLX1k-107">
+          <mxGeometry x="0.0059" y="11" relative="1" as="geometry">
+            <mxPoint x="4" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FWvUOpJC13upthYFLX1k-109" value="Inicio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1313" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
